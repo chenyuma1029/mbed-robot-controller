@@ -6,9 +6,9 @@
 #endif
 
 #include "mbed.h"
-#include "MotionControl.h"
-#include "StdMotor.h"
-#include "Ultrasonic.hpp"
+#include "../hardware_libs/MotionControl.h"
+#include "../hardware_libs/StdMotor.h"
+#include "../hardware_libs/Ultrasonic.hpp"
 
 #include <cstring>
 #include <cstdio>
