@@ -1,5 +1,5 @@
 #include "CommandProcessor.h"
-#include "Vector.hpp"
+#include "../common_libs/Vector.hpp"
 
 void cmdProcess(const char* text, int len) {
     printf("Len: %d, %s\r\n", len, text);
