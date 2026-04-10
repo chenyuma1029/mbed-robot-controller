@@ -1,7 +1,7 @@
 #ifndef SERIAL_COMM_H
 #define SERIAL_COMM_H
 
-#include "config.h"
+#include "../core/config.h"
 
 void btInterrupt();
 void rpiInterrupt();
