@@ -1,7 +1,6 @@
-#include "config.h"
-#include "SerialComm.h"
-#include "CommandProcessor.h"
-
+#include "core/config.h"
+#include "comm/SerialComm.h"
+#include "comm/CommandProcessor.h"
 
 StdMotor BR(p21, p19, p18, period);
 StdMotor BL(p22, p17, p16, period);
